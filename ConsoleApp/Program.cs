@@ -36,8 +36,8 @@ namespace ConsoleApp
                         objName = x.Name;
                         objLastName = x.LastName;
                     });
-                    object objLasName;
-                    Console.WriteLine("{0}\tR${1}\t", objName, objLastName);
+                    Console.WriteLine("Dados de amigo");
+                    Console.WriteLine("{0}\t{1}\t", objName, objLastName);
                     Console.WriteLine("Amigo acessado e exibido. ");
                     Console.ReadKey();
                 }
