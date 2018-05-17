@@ -16,18 +16,7 @@ namespace Api.Controllers
         public AmigoController()
         {
             _context = new AppDbContext();
-            var amigo = new Amigo
-            {
-                Id = 1,
-                Name = "Yacov",
-                LastName = "Rosenberg",
-                Email = "Yacov@gmail.com",
-                Birthday = new DateTime(29/11/1994),
-                Tel = 219885449
-            };
-
-            _context.Amigos.Add(amigo);
-            _context.SaveChanges();
+            
         }
 
         //GET /api/amigo
